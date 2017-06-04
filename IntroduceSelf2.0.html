@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>个人介绍2.0</title>
+	<link href="iconfont-embedded.css" rel="stylesheet" type="text/css" /> 
+	<style>
+		@media screen and (min-width: 480px) 
+		{
+		    body 
+			    {
+			        background-color: lightgreen;
+			    }
+	    }
+      body
+      {
+        background-color:#F0F8FF;
+      }
+      #information
+      {
+        background-image:url('https://gss3.bdstatic.com/84oSdTum2Q5BphGlnYG/timg?wapp&quality=80&size=b150_150&subsize=20480&cut_x=0&cut_w=0&cut_y=0&cut_h=0&sec=1369815402&srctrace&di=fe5577839f1b8875fcafa5b905c6f35f&wh_rate=null&src=http%3A%2F%2Ftb1.bdstatic.com%2Ftb%2F0861f65d.jpg');
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-position:100%15%;
+      }
+      #hobby
+      {
+        background-image:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491314188&di=902452959461336e26dfb86868e3a339&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F15%2F84%2F04%2F258PICp58PICD6B_1024.jpg');
+      }
+      #grow
+      {
+        background-image:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490718819308&di=f9a6bf7928634f7a2ef7744078eaacd2&imgtype=0&src=http%3A%2F%2Fwww.ablanxue.com%2Fautoupload%2F201603%2F14570596505934153.jpg');
+      }
+      #programme
+      {
+        background-image:url('http://static.runoob.com/images/demo/demo1.jpg');
+      }
+      main
+      {
+        color:#40E0D0;
+        font-family:"Lucida Console", Monaco, monospace;
+      }
+      ul 
+      {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          width: auto;
+          margin: 0px auto 0px auto;
+      }
+      li 
+      {
+          float: left;
+      }
+      li a, .dropbtn 
+      {
+          display: inline-block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+      li a:hover, .dropdown:hover .dropbtn 
+      {
+          background-color:#888;
+      }
+      .dropdown 
+      {
+          display: inline-block;
+      }
+      .dropdown-content 
+      {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+      .dropdown-content a 
+      {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+      }
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      .dropdown:hover .dropdown-content 
+      {
+          display: block;
+      }
+      textarea
+      {
+      	height: 200px;
+      	width: 800px;
+      }
+      #huaji
+      {
+      	float: right;
+      }
+      #guodu
+      {
+      	width: 200px;
+      	height: 20px;
+      	transition:width 2s;
+      	-webkit-transition:width 2s;
+      }
+      #guodu:hover
+      {
+      	width: 400px;
+      }
+	</style>
+</head>
+<body>
+	<div>
+		<ul>
+		  <li><a class="active" href="#home">主页</a></li>
+		  <li><a href="calculator.html" target="_blank">计算器</a></li>
+		  <div class="dropdown">
+		    <a href="#" class="dropbtn">下拉菜单</a>
+		    <div class="dropdown-content">
+		      <nav>
+		      	<a href="#t1">个人说明</a>
+			    <a href="#t2">个人相册</a>
+			    <a href="#t3">个人爱好</a>
+			    <a href="#t4">成长经历</a>
+			    <a href="#t5">最喜欢的程序</a>
+		      </nav>
+		    </div>
+		  </div>
+		</ul>
+	</div>
+	<div id="information">
+		<aside>
+			<h1 id="t1">个人说明</h1>
+			<div id="guodu">
+				姓名：<b>朱育锋</b> <img src="https://imgsa.baidu.com/baike/w%3D268/sign=1e68cddb36adcbef0134790094ae2e0e/8d5494eef01f3a29e33f21d19e25bc315c607c3e.jpg" alt="Pulpit rock" width="16" height="16" id="huaji">
+			</div>
+			<br>
+			性别：男<sub>♂</sub><br>
+			年龄：19<br>
+			QQ：1547107965<br>
+			学校：<a href="http://www.hdu.edu.cn/" target="_blank"><em>杭州电子科技大学</em></a><br>
+			专业：<font color="#FF0000"><del>机械设计制造及其自动化</del> </font><ins>软件工程</ins>
+			<p  border-radius: 15px;>大家好，我叫朱育锋，来自<font color="#0000FF">天津</font>，<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489763512865&di=e7a87b7151e27cf8c0877e577e3e402f&imgtype=0&src=http%3A%2F%2Fimg3.duitang.com%2Fuploads%2Fitem%2F201603%2F13%2F20160313083135_dK3Nc.thumb.224_0.gif" alt="Pulpit rock" width="90" height="60"> </p>
+			<footer><pre>非常高兴加入软工一班这个大家庭。</pre></footer>
+		</aside>
+	</div>
+	<div id="photo">
+			<h1 id="t2">个人相册</h1>
+			<h2>天津</h2>
+			<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489666685113&di=64357729e5083e9ca4881d4d2bb352eb&imgtype=0&src=http%3A%2F%2Fimg3.fengniao.com%2Fforum%2Fattachpics%2F752%2F31%2F30046081_1024.jpg" alt="梦魇之地" width="304" height="228">
+			<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489666806915&di=27c9ba46a3b3e42bb78478451bf3ed1f&imgtype=0&src=http%3A%2F%2Fpic.astron.ac%2Fforum%2F201304%2F27%2F002857mf623w78b2z6l6wg.jpg" alt="灯火辉煌" width="304" height="228">
+			<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489666864476&di=2774f4c1471fa1d4470453a96e6a64a6&imgtype=0&src=http%3A%2F%2Fcyjctrip.qiniudn.com%2F98833%2F1392025434072p18gdipggqsri13se1ksiucf1ven29.jpg" alt="意式风格" width="304" height="228">
+			<h2>杭州电子科技大学</h2>
+			<img src="http://a3.att.hudong.com/27/57/01300542458558140557570473240.jpg" alt="教学楼" width="304" height="228">
+			<img src="http://kaochang.offcn.com/data/uploads/school/ce16b2135d6b388e2847e12036c56e69.jpg" alt="校门" width="304" height="228">
+			<img src="http://s3.sinaimg.cn/mw690/005TVKdqgy6SptdDvkCb2&690" alt="鼎" width="304" height="228">
+	</div>
+	<div id="hobby">
+			<h1 id="t3">个人爱好</h1>
+			<dl>
+			<dt>足球</dt> 
+			<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489758815170&di=a19e901a140822e5876ccead0c8c5222&imgtype=0&src=http%3A%2F%2Fpic.ilitu.com%2Fg1%2F1027_57764692971.jpg" alt="巴塞罗那" width="304" height="228">
+			<dd>最爱的球队－－巴塞罗那</dd>
+			<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489758854299&di=aa02a174b1f4f67514d8a18eec03a23d&imgtype=0&src=http%3A%2F%2Fuploads.yuwenmi.com%2Fallimg%2F201703%2F18-1F30ZU641M7.jpg" alt="梅西" width="304" height="228">
+			<dd>最爱的球员－－梅西</dd>
+			<dt>星际争霸2</dt>
+			<img src="http://img4.imgtn.bdimg.com/it/u=1482301170,3399854072&fm=23&gp=0.jpg" alt="星际争霸2" width="304" height="228">
+			<dd>My Life For Aiur</dd>
+			</dl>
+	</div>
+	<div id="grow">
+			<h1 id="t4">成长经历</h1>
+			<table border="0" >
+			    <tr>
+			        <th>序号</th>
+			        <th>学校</th>
+			        <th>时间</th>
+			    </tr>
+			    <tr>
+			        <td>1</td>
+			        <td>天津市河西区中心小学</td>
+			        <td>2004---2010</td>
+			    </tr>
+			    <tr>
+			        <td>2</td>
+			        <td>北师大天津附中</td>
+			        <td>2010---2013</td>
+			    </tr>
+			    <tr>
+			        <td>3</td>
+			        <td>北师大天津附中</td>
+			        <td>2013---2016</td>
+			    </tr>
+			    <tr>
+			        <td>4</td>
+			        <td>杭州电子科技大学</td>
+			        <td>2016---至今</td>
+			    </tr>
+			</table>
+	</div>
+	<div id="programme">
+		<main>
+			<header>
+				<h1 id="t5">最喜欢的程序</h1>
+			</header>
+			<p>
+				<article>
+					Elevator<br>
+				Problem Description:The highest building in our city has only one elevator. A request list is made up with N positive numbers. The numbers denote at which floors the elevator will stop, in specified order. It costs 6 seconds to move the elevator up one floor, and 4 seconds to move down one floor. The elevator will stay for 5 seconds at each stop.For a given request list, you are to compute the total time spent to fulfill the requests on the list. The elevator is on the 0th floor at the beginning and does not have to return to the ground floor when the requests are fulfilled.<br>
+				answer:<br>
+				</article>
+				<section>
+					<code>
+					#include <stdio.h>
+					int main()<br>
+					{<br>
+					    int a,i,t,ans;<br>
+					    int b[100];<br>
+					    b[0]=0;<br>
+					    while(scanf("%d",&a)&&a!=0)<br>
+					    {<br>
+					       t=0;<br>
+					        for(i=1;i<=a;i++)<br>
+					        {<br>
+					           scanf("%d",&b[i]);<br>
+					            if(b[i]>b[i-1])<br>
+					            {<br>
+					               t+=6*(b[i]-b[i-1]);<br>
+					            }<br>
+					            else<br>
+					            {<br>
+					               t+=4*(b[i-1]-b[i]);<br>
+					            }<br>
+					        }<br>
+					        ans=t+5*a;<br>
+					       printf("%d\n",ans);<br>
+					    }<br>
+					    return 0;<br>
+					 }<br>
+				    </code>
+				</section>
+			</p>
+		</main>
+	</div>
+	<div>
+		<h1>留言</h1><br>
+		<textarea>
+		</textarea><br>
+		<button type="submit"  style="font-size:18px;">
+			提交
+		</button>
+	</div>
+</body>
+</html>

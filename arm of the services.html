@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>兵种资料</title>
+</head>
+<style type="text/css">
+	body
+	{
+		background-color: black;
+	}
+	a
+	{
+		color: #ea0b8c;
+		font-weight: 600;
+		font-size: 20px;
+	}
+	#Protoss
+	{
+		background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1496601125308&di=778db32b1aa4db1bd6370266f2a134dc&imgtype=0&src=http%3A%2F%2Fi0.hdslb.com%2Fgroup1%2FM00%2F5D%2F70%2FoYYBAFbVKU6AGtgqAAYVRXZogXs734.jpg');
+		background-size: 190% 140%;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 720px;
+	}
+	#Zerg
+	{
+		position: absolute;
+		top: 730px;
+		left: 0px;
+		background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1497195959&di=b20e428c3c37b86ec1ffe610bf45d10c&imgtype=jpg&er=1&src=http%3A%2F%2Fs1.dwstatic.com%2Fgroup1%2FM00%2F18%2F78%2F737ed1ed2a9d87a4554e22fe1f50c810.jpg');
+		background-size: 150% 100%;
+		background-position: 155% 0%;
+		background-repeat: no-repeat;
+		width: 60%;
+		height: 720px;
+	}
+	#Terran
+	{
+		position: absolute;
+		top: 1460px;
+		right: 0px;
+		background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1496591333&di=19cd1b9ff76db6ab0559bae1fc803b83&src=http://www.free-hdwallpapers.com/wallpapers/videogames2/32406-videogames-867.jpg);
+		background-size: 200% 100%;
+		background-repeat: no-repeat;
+		background-position: 0% 0;
+		width: 40%;
+		height: 720px;
+	}
+	#pinjie
+	{
+		position: absolute;
+		top: 730px;
+		right: 0px;
+		background-image: url('http://img1.gamersky.com/image2012/09/20120912r_192/gamersky_05small_10.jpg');
+		background-size: 220% 200%;
+		background-position: 0% 40%;
+		background-repeat: no-repeat;
+		width: 40%;
+		height: 720px;
+	}
+	#earth
+	{
+		position: absolute;
+		top: 1460px;
+		left: 0px;
+		background-image: url('earth.jpg');
+		background-repeat: no-repeat;
+		background-size: 220% 150%;
+		background-position: 85% 80%;
+		width: 60%;
+		height: 720px;
+	}
+	#list1
+	{
+		position: absolute;
+		top: 200px;
+		left: 40px;
+		width: 550px;
+		height: 450px;
+	}
+	#list2
+	{
+		position: absolute;
+		top: 200px;
+		right: 140px;
+		width: 550px;
+		height: 450px;
+	}
+	#list3
+	{
+		position: absolute;
+		top: 200px;
+		left: 150px;
+		width: 550px;
+		height: 450px;
+	}
+	#name1
+	{
+		position: relative;
+		top: 100px;
+		left: 70px;
+		font-size: 50px;
+		color: white;
+	}
+	#name2
+	{
+		position: relative;
+		top: 100px;
+		right: 70px;
+		font-size: 50px;
+		color: white;
+	}
+	#name3
+	{
+		position: relative;
+		top: 100px;
+		left: 200px;
+		font-size: 50px;
+		color: white;
+	}
+	li
+	{
+		list-style-type:none;
+	}
+	ul.ul1 li img
+	{ 
+		display:block;
+		width:90px; 
+		height:90px;
+	}
+	ul.ul1 li
+	{ 
+		float:left; 
+		width: 120px;
+		height:110px; 
+	}
+	.dropdown {
+	  position: relative;
+	  display: inline-block;
+	}
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  width: 150px;
+	  height: auto;
+	  background-color: transparent;
+	  background-color: #000000;
+	  color: #1769ff;
+	  opacity: 0.72;
+	  padding: 12px 16px;
+	  z-index: 9;
+	}
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}    
+</style>
+<body>
+	<div id="Protoss">
+		<div id="name1">
+			星灵(Protoss)
+		</div>
+		<div id="list1">
+			<ul class="ul1">
+				<li>
+				   <div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/11/1439953_probe.jpg">
+		              <div class="dropdown-content">
+						<a>Probe 探针(农民)</a><br>
+						生产建筑:星灵枢纽<br>
+						生命:20 护盾:20 热键:E<br>
+						水晶资源:  50  所需人口:  1 <br> 
+						建造时间:  17<br>
+						攻击力 :5 <br>
+						射程 :近战 <br>
+						攻击速度 :1.5 <br>
+						攻击目标 :对地  
+		              </div>
+		           </div> 					
+				</li>
+				<li>
+				   <div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/11/1439953_zealot.jpg" />
+		              <div class="dropdown-content">
+		                <a>Zealot 狂热者(叉叉)</a><br>
+						生产建筑:传送门<br>
+						生命:100 护盾:50 热键:Z<br>
+						水晶资源:  100  所需人口:  2  <br>
+						建造时间:  38<br>
+						攻击力 :8（x2）<br> 
+						射程 :近战 <br>
+						攻击速度 :1.2 <br>
+						攻击目标 :对地
+		              </div>
+		           </div>					
+				</li>
+				<li>
+				   <div class="dropdown">
+		              <a href="detail.html"><img src="http://img3.pcgames.com.cn/pcgames/0905/11/1439953_stalker.jpg"  href="detail.html"></a>		        
+		              <div class="dropdown-content">
+		                <a>stalker 追踪者(追猎者)</a><br>
+						生产建筑:传送门<br>
+						生命:80 护盾:80 热键:S<br>
+						水晶资源:  125 气体资源:  50 <br> 
+						所需人口:  2  建造时间:  42<br>
+						攻击力 :10 <br>
+						射程 :6 <br>
+						攻击速度 :1.44 <br>
+						攻击目标 :对地、对空 <br>
+						护甲 :1 <br>
+						护甲类型 :重型-机械<br>
+						移动速度 :2.95
+		              </div>
+		           </div>					
+				</li>
+				<li>
+					<div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/11/1439953_immortal.jpg" />
+		              <div class="dropdown-content">
+		                <a>Immortal 不朽者</a><br>
+						生产建筑:机械研究所<br>
+						需要建筑:光影议会  生命:200 护盾:100 热键:I<br>
+						水晶资源:  250  所需人口:  4  <br>
+						气体资源:  100  建造时间:  55<br>
+						攻击力 :20（对重型50） <br>
+						射程 :5 <br>
+						攻击速度 :1.45 <br>
+						攻击目标 :对地<br> 
+						护甲 :1 <br>
+						护甲类型 :重型-机械<br>
+						移动速度 :2.25
+		              </div>
+		           </div>
+				</li>
+				<li>
+					<div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/11/1439953_high_templar.jpg" />
+		              <div class="dropdown-content">
+		                <a>Templar (高阶圣堂武士)</a><br>
+						生产建筑:传送门 Gateway<br>
+						需要建筑:圣堂档案馆  生命:40 护盾:40 能量:200  热键:T<br>
+						水晶资源:  50  所需人口:  2  <br>
+						气体资源:  150  建造时间:  55<br>
+						攻击力 :0<br>
+						射程 : 0<br>
+						攻击速度 : 0<br>
+						攻击目标 : 地面+空中<br>
+						护甲 :0 <br>
+						护盾 :0<br>
+						护甲类型 :轻型-生物-灵能<br>
+						移动速度 :1.88
+		              </div>
+		           </div>
+				</li>
+				<li>
+					<div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/11/1439953_dark_templar.jpg" />
+		              <div class="dropdown-content">
+		                <a>Dark Templar 黑暗圣堂武士(隐刀)</a><br>
+						生产建筑:传送门<br>
+						需要建筑:黑暗圣所  生命:40 护盾:80 热键:D<br>
+						水晶资源:  125  所需人口:  2  <br>
+						气体资源:  125  建造时间:  55<br>
+						攻击力 :45 <br>
+						射程 :近战 <br>
+						攻击速度 :1.69 <br>
+						攻击目标 :对地 <br>
+						护甲 :1 <br>
+						护甲类型 :轻型-生物-灵能<br>
+						移动速度 :2.81
+		              </div>
+		           </div>
+				</li>
+				<li>
+					<div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/11/1439953_archon.jpg" />
+		              <div class="dropdown-content">
+		                <a>Archon 执政官(白球)</a><br>
+						由两名圣堂武士合体而成（高阶圣堂武士/黑暗圣堂武士）<br>
+						生命:10 护盾:350 热键:C<br>
+						水晶资源:  0  所需人口:  4  <br>
+						气体资源:  0  建造时间:  12<br>
+						攻击力 :25 （对生物伤害35）<br>
+						射程 :3（小范围溅射伤害）<br>
+						攻击速度 :1.75 <br>
+						攻击目标 :对地、对空 <br>
+						护甲 :0 <br>
+						护甲类型 :灵能<br>
+						移动速度 :2.81
+		              </div>
+		           </div>
+				</li>
+				<li>
+					<div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/13/1464211_101.jpg" />
+		              <div class="dropdown-content">
+		                <a>Observer 观察者(叮当、OB)</a><br>
+						生产建筑:机械研究所<br>
+						生命:40 护盾:20 热键:B<br>
+						水晶资源:  25  所需人口:  1  <br>
+						气体资源:  75  建造时间:  40<br>
+						攻击力 :0 <br>
+						射程 :0 <br>
+						攻击速度 :0 <br>
+						攻击目标 :无 <br>
+						护甲 :0 <br>
+						护甲类型 :轻型-机械<br>
+						移动速度 :1.88
+		              </div>
+		           </div>
+				</li>
+				<li>
+					<div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/11/1439953_colossus.jpg" />
+		              <div class="dropdown-content">
+						<a>Colossus 巨像</a><br>
+						生产建筑:机械研究室<br>
+						需要建筑:机械站  生命:200 护盾:150 热键:C<br>
+						水晶资源:  300  所需人口:  6  <br>
+						气体资源:  200  建造时间:  75<br>
+						攻击力 :15（x2） <br>
+						射程 :6（升级后9） <br>
+						攻击速度 :1.65 <br>
+						攻击目标 :对地 <br>
+						护甲 :1 <br>
+						护甲类型 :重型-机械-巨型<br>
+						移动速度 :2.25		                
+		              </div>
+		           </div>
+				</li>
+				<li>
+					<div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/11/1439953_warp_prism.jpg" />
+		              <div class="dropdown-content">
+		                <a>Warp Prism 曲棱镜(时空棱镜)</a><br>
+						生产建筑:机械研究所<br>
+						生命:100 护盾:40 热键:A<br>
+						水晶资源:  200  所需人口:  2 <br> 
+						建造时间:  50
+		              </div>
+		           </div>
+				</li>
+				<li>
+					<div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/11/1439953_phoenix.jpg" />
+		              <div class="dropdown-content">
+						<a>Phoenix 凤凰战机(凤凰)</a><br> 
+						生产建筑:星门<br> 
+						生命:120 护盾:60 能量:200  热键:X<br> 
+						水晶资源:  150  所需人口:  2  <br> 
+						气体资源:  100  建造时间:  35<br> 
+						攻击力： 5x2（对轻型10x2）<br> 
+						射程 : 4<br> 
+						攻击速度 : 1.1<br> 
+						攻击目标 : 对空<br> 
+						护甲 :0 <br> 
+						护盾 :0<br> 
+						护甲类型 :轻型-机械<br> 
+						移动速度 :4.25
+		              </div>
+		           </div>
+				</li>
+				<li>
+					<div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/11/1439953_void_ray.jpg" />
+		              <div class="dropdown-content">
+		                <a>void ray 虚光舰(虚空辉光舰)</a><br>
+						生产建筑:星门<br>
+						生命:150 护盾:100 热键:V<br>
+						水晶资源:  250  所需人口:  3  <br>
+						气体资源:  150  建造时间:  60<br>
+						攻击力 :6（对重型10，随攻击时间增加） <br>
+						射程 :6 <br>
+						攻击速度 :0（可移动攻击） <br>
+						攻击目标 :对地、对空 <br>
+						护甲 :0 <br>
+						护甲类型 :机械-空军<br>
+						移动速度 :2.25
+		              </div>
+		           </div>
+				</li>
+				<li>
+					<div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/11/1439953_carrier.jpg" />
+		              <div class="dropdown-content">
+		                <a>Carrier 航母(运载舰)</a><br>
+						生产建筑:星门<br>
+						需要建筑:航队航标  生命:300 护盾:150 热键:C<br>
+						水晶资源:  350  所需人口:  6  <br>
+						气体资源:  250  建造时间:  120<br>
+						攻击力 :5（x2） <br>
+						射程 :8 <br>
+						攻击速度 :1 <br>
+						攻击目标 :对地、对空 <br>
+						护甲 :2 <br>
+						护甲类型 :重型-机械-巨型<br>
+						移动速度 :1.88
+		              </div>
+		           </div>
+				</li>
+				<li>
+					<div class="dropdown">
+		              <img src="http://img3.pcgames.com.cn/pcgames/0905/13/1464211_102.jpg" />
+		              <div class="dropdown-content">
+		                <a>Mothership 母舰(妈妈船)</a><br>
+						生产建筑:星灵枢纽<br>
+						需要建筑:航队航标  生命:350 护盾:350 能量:200  热键:M<br>
+						水晶资源:  400  所需人口:  8  <br>
+						气体资源:  400  建造时间:  160<br>
+						攻击力： 6（x6）<br>
+						射程 : 7<br>
+						攻击速度 : 一般<br>
+						攻击目标 : 对地、对空<br>
+						护甲 :2 <br>
+						护盾 :0<br>
+						护甲类型 :重型-机械-灵能-巨型<br>
+						移动速度 :慢
+		              </div>
+		           </div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="Zerg">
+	</div>
+	<div id="pinjie">
+		<div id="name2">
+			异虫(Zerg)
+		</div>
+		<div id="list2">
+			<ul class="ul1">
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_baneling.jpg">
+						<div class="dropdown-content">
+							<a>Zerg - Baneling(爆虫)</a><br>
+							生产:由跳虫升级进化而来 <br>
+							需要建筑:爆虫巢<br>
+							生命:30  热键:B<br>
+							水晶资源:  25     气体资源:  25<br>
+							所需人口:  1      建造时间:  20<br>
+							攻击力 :20（对轻型35）<br>
+							射程 :近战 <br>
+							攻击速度 :0.83<br>
+							攻击目标 :地面<br>
+							护甲 :0 <br>
+							护甲类型 :生物<br>
+							移动速度 :2.5(菌毯外)3.25(菌毯内)
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_larva.jpg">
+						<div class="dropdown-content">
+							<a>Zerg - Larva(幼虫)</a><br>
+							生产建筑:孵化所 <br>
+							可变异为：工蜂、王虫、跳虫、蟑螂、刺蛇、感染者、雷兽、飞龙、腐化者<br>
+							生命:25   热键:L<br>
+							攻击力 :<br>
+							射程 :<br>
+							攻击速度 :	护甲 :10 <br>
+							护甲类型 :轻型护甲<br>
+							移动速度 :0.56 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_drone.jpg">
+						<div class="dropdown-content">
+							<a>Zerg - Drone(工蜂)</a><br>
+							生产:幼虫进化   需要建筑:孵化所<br>
+							生命:40  热键:D<br>
+							水晶资源:  50     气体资源:  0<br>
+							所需人口:  1      建造时间:  17<br>
+							攻击力 :5 <br>
+							射程 :近战 <br>
+							攻击速度 :1.5<br>
+							攻击目标 :地面<br>
+							护甲 :0 <br>
+							护甲类型 :轻型-生物<br>
+							移动速度 :2.81 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_overlord.jpg">
+						<div class="dropdown-content">
+							<a>Zerg - Biological - Overlord(领主)</a><br>
+							生产:由幼虫进化而来  <br>
+							可变异为:督察<br>
+							生命:200  热键:V<br>
+							简介：主要的侦查手段之一。除此之外宿主还可以吐出临时的菌毯，以供工蜂孵化建筑。并且宿主还可以进化成更为强大的督察。<br>
+							水晶资源:  100  气体资源:  0<br>
+							提供人口:  8    建造时间:  25<br>
+							攻击力 :  <br>
+							射程 : <br>
+							攻击速度 :  <br>
+							护甲 :0 <br>
+							护甲类型 :重型-生物<br>
+							移动速度 :0.47 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_overseer.jpg">
+						<div class="dropdown-content">
+							<a>Zerg - Biological - Overseer(督察)</a><br>
+							生产:由王虫进化而来   需要建筑:巢穴<br>
+							生命:200  能量:200  热键:V<br>
+							水晶资源:  50      气体资源:  100<br>
+							提供人口:  8      建造时间:  17<br>
+							攻击力 :  <br>
+							射程 : <br>
+							攻击速度 :  <br>
+							护甲 :1 <br>
+							护甲类型 :重型-生物<br>
+							移动速度 :1.88 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_zergling.jpg">
+						<div class="dropdown-content">
+							<a>Zerg - Biological - Zergling(跳虫)</a><br>
+							生产:由幼虫升级进化而来   需要建筑:分裂池<br>
+							可变异为:爆虫<br>
+							生命:35  热键:Z<br>
+							水晶资源:  25        气体资源:   <br>
+							所需人口: 0.5        建造时间:  24<br>
+							攻击力 :5  <br>
+							射程 :近战<br>
+							攻击速度 :0.7<br>
+							攻击目标 :地面<br>
+							护甲 :0 <br>
+							护甲类型 :轻型-生物<br>
+							移动速度 :2.95(菌毯外)3.83(菌毯内)
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_roach.jpg">
+						<div class="dropdown-content">
+							<a>Biological - Roach(蟑螂)</a><br>
+							生产:由幼虫升级进化而来   需要建筑:蟑螂巢穴<br>
+							生命:145  热键:R<br>
+							水晶资源:  75       气体资源: 25<br>
+							所需人口:  2         建造时间:  27<br>
+							攻击力 :16 <br>
+							射程 :4 <br>
+							攻击速度 :2<br>
+							攻击目标 :地面	护甲 :1 <br>
+							护甲类型 :重型-生物<br>
+							移动速度 :2.25(菌毯外)2.92(菌毯内)
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_corruptor.jpg">
+						<div class="dropdown-content">
+							<a>Zerg - Corruptor(腐化者)</a>
+							生产:幼虫进化   需要建筑:塔巢<br>
+							可变异为:巢穴领主<br>
+							生命:200  热键:C<br>
+							水晶资源:  150     气体资源:  100<br>
+							所需人口:  2       建造时间:  40<br>
+							攻击力 :12 （对巨型22） <br>
+							射程 :6 <br>
+							攻击速度 :1.9<br>
+							攻击目标 :空中<br>
+							护甲 :2 <br>
+							护甲类型 :重型-生物<br>
+							移动速度 :2.95 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_mutalisk.jpg">
+						<div class="dropdown-content">
+							<a>Zerg - Biological - Mutalisk(飞龙)</a><br>
+							生产:由幼虫升级进化而来   需要建筑:塔巢<br>
+							生命:120  热键:T<br>
+							水晶资源:  100    气体资源:  100<br>
+							所需人口:  2      建造时间:  33<br>
+							攻击力 :9 小范围弹射攻击，可弹射最多3次，可在空地间弹射<br>
+							射程 :3 <br>
+							攻击速度 :1.52<br>
+							攻击目标 :地面，空中<br>
+							护甲 :0 <br>
+							护甲类型 :轻型-生物<br>
+							移动速度 :3.75
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_hydralisk.jpg">
+						<div class="dropdown-content">
+							<a>Zerg - Hydralisk（刺蛇）</a>  <br>
+							生产:幼虫进化   需要建筑:刺蛇洞穴<br>
+							生命:80  热键:H<br>
+							水晶资源:  100    气体资源:  50<br>
+							所需人口:  2      建造时间:  33<br>
+							攻击力 :12 <br>
+							射程 :5 <br>
+							攻击速度 :0.83<br>
+							攻击目标 :地面，空中<br>
+							护甲 :0 <br>
+							护甲类型 :轻型-生物<br>
+							移动速度 :2.25(菌毯外)3.37(菌毯内)
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_lurker.jpg">
+						<div class="dropdown-content">
+							<a>Biological - Lurker(潜伏者)</a><br>
+							生产:由刺蛇升级进化而来   需要建筑:潜伏者穴<br>
+							生命:200  热键:L<br>
+							水晶资源:  50     气体资源:  100<br>
+							所需人口:  2      建造时间:  33<br>
+							攻击力 :15 (对重型护甲目标时+15)<br>
+							射程 :9 <br>
+							攻击速度 :一般 <br>
+							攻击目标 :地面<br>
+							护甲 :1 <br>
+							护甲类型 :重型护甲<br>
+							移动速度 :一般 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_nydus_worm.jpg">
+						<div class="dropdown-content">
+							<a>Nydus Worm (坑道蠕虫)</a><br>
+							孵化建筑:蠕道坑  <br>
+							生命:200  热键:N<br>
+							水晶资源:  100       气体资源:  100<br>
+							所需人口:  /        建造时间:  20<br>
+							攻击力 :N/A<br>
+							射程 :N/A<br>
+							攻击速度 :N/A <br>
+							攻击目标 :N/A<br>
+							护甲 :1 <br>
+							护甲类型 :重型-生物-建筑<br>
+							移动速度 :一般 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_ultralisk.jpg">
+						<div class="dropdown-content">
+							<a>Massive - Biological - Ultralisk(雷兽)</a><br>
+							生产:由幼虫升级变异而来   需要建筑:雷兽穴<br>
+							生命:500  热键:U<br>
+							水晶资源:  300     气体资源:  200<br>
+							所需人口:  6       建造时间:  70<br>
+							攻击力 :15 对重型35（正面范围杀伤）<br>
+							射程 :近战 <br>
+							攻击速度 :0.86<br>
+							攻击目标 :地面<br>
+							护甲 :1 <br>
+							护甲类型 :重型-生物-巨型<br>
+							移动速度 :2.95(菌毯外）3.83(菌毯内)							 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440134_queen.jpg">
+						<div class="dropdown-content">
+							<a>Biological - Psionic - Queen(皇后)</a><br>
+							生产:孵化所/巢穴/蜂巢 <br>
+							需要建筑:分裂池<br>
+							所需人口: 2      建造时间:  50<br>
+							生命:175  能量:200  热键:Q<br>
+							水晶资源:  150  <br>
+							攻击力 :9（对空）4x2（对地）<br>
+							射程 :7（对空）3（对地） <br>
+							攻击速度 :1<br>
+							攻击目标 :地面，空中<br>
+							护甲 :1 <br>
+							护甲类型 :轻型-灵能<br>
+							移动速度 :0.94(菌毯外) 2.5(菌毯内)
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img1.pcgames.com.cn/pcgames/1002/25/1842153_infestor1.jpg">
+						<div class="dropdown-content">
+							<a>Infestor (感染者)</a><br>
+							生产:由幼虫升级进化而来   需要建筑:感染之潭<br>
+							生命:90  能量:200 热键:F<br>
+							水晶资源:  100       气体资源:  150 <br>
+							所需人口:  2         建造时间:  50<br>
+							攻击力 :0  <br>
+							射程 :0<br>
+							攻击速度 :/ <br>
+							攻击目标 :地面	护甲 :0 <br>
+							护甲类型 :重型-生物-灵能<br>
+							移动速度 :一般(菌毯外)快(菌毯内) 
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="Terran">
+	</div>
+	<div id="earth">
+		<div id="name3">
+			人类(Terran)
+		</div>
+		<div id="list3">
+			<ul class="ul1">
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_mule.jpg">
+						<div class="dropdown-content">
+							<a>Mule(矿骡)生产建筑：轨道指挥部 </a><br>
+							生命:60  能量:N/A   热键：E<br>
+							水晶资源：  N/A 所需人口：  N/A<br>
+							气体资源：  N/A 持续时间：  90<br>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_scv.jpg">
+						<div class="dropdown-content">
+							<a>SCV (space construction vehicle)（空间建筑工程车）</a><br>
+							生产建筑:指挥中心<br>
+							生命:45 热键:S<br>
+							水晶资源:  50  所需人口:  1  <br>
+							建造时间:  17<br>
+							攻击力 :5 <br>
+							射程 :近战 <br>
+							攻击速度 :1.5 <br>
+							攻击目标 :对地 <br>
+							护甲 :0 <br>
+							护甲类型 :轻型-生物-机械<br>
+							移动速度 :2.81
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_marine.jpg">
+						<div class="dropdown-content">
+							<a>Biological - Marine(陆战队员)</a><br>
+							生产建筑:兵营 <br>
+							生命:45 热键:A<br>
+							水晶资源:  50  所需人口:  1  <br>
+							建造时间:  25<br>
+							攻击力 :6 <br>
+							射程 :5 <br>
+							攻击速度 :0.86 <br>
+							攻击目标 :对地,对空	护甲 :0 <br>
+							护甲类型 :轻型-生物<br>
+							移动速度 :2.25 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_reaper.jpg">
+						<div class="dropdown-content">
+							<a>Reaper(收割者)</a><br>
+							生产建筑:兵营<br>
+							需要建筑:科技实验室   生命:50  热键:R<br>
+							水晶资源:  50    气体资源:  50  <br>
+							所需人口:  1      建造时间:  45<br>
+							攻击力 :对单位4*2 （对轻型9*2） 对建筑30 <br>
+							射程 :对单位4.5 对建筑5 <br>
+							攻击速度 :对单位1.1 对建筑1.8 <br>
+							攻击目标 :对地 <br>
+							防御能力 :0-人类步兵装甲 <br>
+							护甲类型 :轻型-生物<br>
+							移动速度 :2.95
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_ghost.jpg">
+						<div class="dropdown-content">
+							<a>Biological - Psionic - Ghost(幽灵兵)</a><br>
+							生产建筑:兵营 的 科技研究所<br>
+							需要建筑:幽灵研究院  生命:100 能量:200 热键:G<br>
+							水晶资源:  200   气体资源:  100<br>
+							所需人口:  2     建造时间:  40<br>
+							攻击力 :10 （对轻型20） <br>
+							射程 :6 <br>
+							攻击速度 :1.5 <br>
+							攻击目标 :对地,对空 <br>
+							护甲 :0 <br>
+							护甲类型 :生物-灵能<br>
+							战场角色 :秘密行动者 <br>
+							移动速度 :2.25 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_marauder.jpg">
+						<div class="dropdown-content">
+							<a>Biological - Marauder(劫掠者)</a><br>
+							生产建筑：兵营 的 科技研究所<br>
+							生命:125  热键：D<br>
+							水晶资源：  100     气体资源：  25  <br>
+							所需人口：  2       建造时间：  30<br>
+							攻击力 :10 （对重型20）<br>
+							射程 :6 <br>
+							攻击速度 :1.5 <br>
+							攻击目标 :对地 <br>
+							护甲 :1 <br>
+							护甲类型 :重型-生物<br>
+							移动速度 :2.25 <br>
+							运输占位 :2
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_hellion.jpg">
+						<div class="dropdown-content">
+							<a>Mechanical - Hellion(恶棍战车)</a><br>
+							生产建筑:工厂 <br>
+							生命值:90 热键:E<br>
+							水晶资源:  100    <br>
+							所需人口:  2     建造时间:  30<br>
+							攻击力 :8 （对轻型14）前方锥型片伤害<br>
+							射程 :5 <br>
+							攻击速度 :2.5 <br>
+							攻击目标 :对地 <br>
+							护甲 :0 <br>
+							护甲类型 :轻型-机械<br>
+							装备武器 :地狱烈焰发射器 <br>
+							移动速度 :4.25
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_siege_tank.jpg">
+						<div class="dropdown-content">
+							<a>Mechanical(人族攻城坦克)</a><br>
+							生产建筑:重工厂 的 科技研究所<br>
+							生命:160  热键:S<br>
+							水晶资源:  150  所需人口:  3  <br>
+							气体资源:  125  建造时间:  45<br>
+							攻击力 :15 对重型25<坦克模式> 35 对重型50（小范围溅射）<攻城模式><br>
+							射程 :   7<坦克模式> 13<攻城模式> <br>
+							攻击速度 :1.04<坦克模式>3<攻城模式> <br>
+							攻击目标 :地面 <br>
+							护甲 :1 <br>
+							护甲类型 :重型-机械 <br>
+							移动速度 :2.25
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_thor.jpg">
+						<div class="dropdown-content">
+							<a>Thor(雷神)</a><br>
+							生产建筑:工厂(需配备科技实验室) <br>
+							需要建筑:军械库 <br>
+							生命:400   能量:50/200    热键:T<br>
+							水晶资源:  300  所需人口:  6  <br>
+							气体资源:  200  建造时间:  60<br>
+							攻击力 :30X2<对地> 6X4;12X4(轻型)小范围溅射<对空><br>
+							射程 : 7 <对地>  10 <对空><br>
+							攻击速度 :对地：1.28 对空：3 <br>
+							攻击目标 :所有单位 <br>
+							防御能力 :1-人类车辆镀层<br>
+							护甲类型 :重型-机械-巨型<br>
+							移动速度 :一般
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_medivac.jpg">
+						<div class="dropdown-content">
+							<a>Medivac Dropship(人族医疗运输机)</a><br>
+							生产建筑:星港<br>
+							生命:150  能量:200  热键:D<br>
+							水晶资源:  100  所需人口:  2  <br>
+							气体资源:  100  建造时间:  42<br>
+							攻击力 : <br>
+							射程 : <br>
+							攻击速度 : <br>
+							攻击目标 : <br>
+							护甲 :1 <br>
+							护甲类型 :重型-机械<br>
+							移动速度 :2.5 
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_nighthawk.jpg">
+						<div class="dropdown-content">
+							<a>Raven(人族夜鹰)</a><br>
+							生产建筑:星港<br>
+							需要建筑:科技研究所  生命:140  能量:200  热键:R<br>
+							水晶资源:  100  所需人口:  2  <br>
+							气体资源:  200  建造时间:  60<br>
+							攻击力 :-<br>
+							射程 :-<br>
+							攻击速度 :-<br>
+							攻击目标 :-<br>
+							护甲 :1 <br>
+							护甲类型 :轻型-机械<br>
+							移动速度 :2.25
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_banshee.jpg">
+						<div class="dropdown-content">
+							<a>Banshee(人族女妖战机)</a><br>
+							生产建筑:星港 的 科技研究所<br>
+							生命:140   能量:200   热键:E<br>
+							水晶资源:  150  所需人口:  3  <br>
+							气体资源:  100  建造时间:  60<br>
+							攻击力 :12 (x2) <br>
+							射程 :6 <br>
+							攻击速度 :1.25 <br>
+							攻击目标 :地面 <br>
+							护甲 :0 <br>
+							护甲类型 :轻型-机械 <br>
+							移动速度 :2.75
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_viking.jpg">
+						<div class="dropdown-content">
+							<a>Viking(人族维京)</a><br>
+							生产建筑:星港<br>
+							需要建筑:无   生命:125   热键:V<br>
+							水晶资源:  150  所需人口:  2  <br>
+							气体资源:  75  建造时间:  42<br>
+							攻击力 :12<对地> 10*2; 14*2(重型)<对空><br>
+							射程 :对空9 对地6 <br>
+							攻击速度 :1<对地>     2<对空><br>
+							攻击目标 :所有单位 <br>
+							防御能力 :0-人类舰船镀层<br>
+							护甲类型 :重型-机械<br>
+							移动速度 :2.75
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<img src="http://img3.pcgames.com.cn/pcgames/0905/11/1440075_battlecruiser.jpg">
+						<div class="dropdown-content">
+							<a>Battlecruiser(人族战列巡洋舰)</a><br>
+							生产建筑:星港 <br>
+							需要建筑:科技实验室 融合核心<br>
+							生命:550  能量:200  热键:B<br>
+							水晶资源:  400  所需人口:  6<br>
+							气体资源:  300  建造时间:  90<br>
+							攻击力 :对地8 对空6 <br>
+							射程 :6 <br>
+							攻击速度 :0.23<br>
+							攻击目标 :所有单位<br>
+							防御能力:3-人类舰船镀层<br>
+							护甲类型 :重型-机械-巨型 <br>
+							移动速度 :1.41
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

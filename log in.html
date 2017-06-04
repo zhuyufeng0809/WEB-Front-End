@@ -1,0 +1,96 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>登录</title>  
+    <link rel="stylesheet" type="text/css" href="Login.css"/>
+    <style type="text/css">
+        #bg-image{   
+            position:absolute;   
+            top:0;   
+            left:0;   
+            height:100%;   
+            width:100%;
+            z-index:-9;     
+        }   
+        #bg-image img{width:100%;} 
+        #form
+        {   
+           position: absolute;   
+           top: 400px;   
+           left: 620px;   
+           margin: -150px 0 0 -150px;   
+           width: 300px;   
+           height: 300px;   
+        }
+        input
+        {   
+            width: 285px;   
+            height: 18px;   
+            margin-bottom: 10px;   
+            outline: none;   
+            padding: 10px;   
+            font-size: 18px;   
+            color: white;   
+            border-top: 1px solid #666666;   
+            border-left: 1px solid #666666;   
+            border-right: 1px solid #666666;   
+            border-bottom: 1px solid #666666;   
+            background-color: #17170e;   
+            }   
+        .but
+        {   
+            width: 305px;   
+            min-height: 20px;   
+            display: block;   
+            background-color: #4a77d4;   
+            border: 1px solid #3762bc;   
+            color: #fff;   
+            padding: 9px 14px;   
+            font-size: 15px;   
+            line-height: normal;   
+            border-radius: 5px;   
+            margin: 0;   
+        }
+        #text1
+        {
+            position: absolute;
+            top: 420px;
+            left: 530px;
+            color: #318bff; 
+        }
+        #text2
+        {
+            position: absolute;
+            top: 460px;
+            left: 580px;
+            color: #318bff;
+        }
+        #text3
+        {
+            position: absolute;
+            top: 500px;
+            left: 577px;
+            color: #318bff;
+        }
+        a:link{  text-decoration: none; }
+        a:visited{ color: #318bff }
+        a:hover {color: #f2f7fa}
+    </style>
+</head>  
+<body>  
+    <div id="bg-image">
+      <img src="login.jpg">
+    </div> 
+    <div id="form">
+      <form action="">
+        <input type="text" name="firstname" placeholder="电子邮箱"><br>
+        <input type="text" name="lastname" placeholder="密码">
+      </form>
+      <button type="button" class="but">登录</button>
+    </div>
+    <div id="text1"><a href="register.html">免费创建暴雪游戏通行证</a></div>
+    <div id="text2"><a href="https://www.battlenet.com.cn/account/support/login-support.html?ref=&theme=blizzard&app=bam">无法登录？</a></div>
+    <div id="text3"><a href="https://www.battlenet.com.cn/account/support/token-resync.html?ref=https://www.battlenet.com.cn/account/management/&theme=blizzard&app=bam">安全令同步</a></div>
+</body>  
+</html>  

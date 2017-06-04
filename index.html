@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>杭电星际</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function()
+	    {
+	       /* $('#first_text').on('mouseenter', function () {
+	      if (!show) {
+	          $('#one_block').animate({bottom: 0}, 300);
+	      } else {
+	          $('#one_block').animate({bottom: -150}, 300);
+	      }
+	      show = !show;
+	      });
+	          $('#second_text').on('mouseenter', function () {
+	      if (!show) {
+	          $('#two_block').animate({bottom: 0}, 300);
+	      } else {
+	          $('#two_block').animate({bottom: -150}, 300);
+	      }
+	      show = !show;
+	      });
+	          $('#third_text').on('mouseenter', function () {
+	      if (!show) {
+	          $('#three_block').animate({bottom: 0}, 300);
+	      } else {
+	          $('#three_block').animate({bottom: -150}, 300);
+	      }
+	      show = !show;
+	      });*/
+	      $('#one_block').hover(
+            function(){
+               $('#one_block').animate({bottom: 0}, 300);
+            },
+            function(){
+              $('#one_block').animate({bottom: -150},300);
+          });
+          $('#two_block').hover(
+            function(){
+               $('#two_block').animate({bottom: 0}, 300);
+            },
+            function(){
+              $('#two_block').animate({bottom: -150},300);
+          });
+          $('#three_block').hover(
+            function(){
+               $('#three_block').animate({bottom: 0}, 300);
+            },
+            function(){
+              $('#three_block').animate({bottom: -150},300);
+          });
+
+	    });
+	</script>
+	<style>
+		#father
+		{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}
+		#first_video
+		{ 
+			width: 100%;
+			height: 100%;
+		}
+		body
+		{
+			background-color: black;
+		}
+		#one_block
+		{
+			position: fixed;
+			bottom: -150px;
+			left: 100px;
+			width: 300px;
+			height: 200px;
+			border-radius:20px;
+			background-color: #0066b2;
+			z-index: 11;
+		}
+		#son_of_one_block
+		{
+			width: 300px;
+			height: 150px;
+			background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1496588056&di=9f53d2a775988a0671ac5d2397b4b067&src=http://i83.photobucket.com/albums/j308/Homeskool_the_cracker/Kerrigan-1920x1200-1.jpg');
+			background-size: 100% 100%;
+		}
+		#two_block
+		{
+			position: fixed;
+			bottom: -150px;
+			left: 485px;
+			width: 300px;
+			height: 200px;
+			border-radius:20px;
+			background-color: #0066b2;
+			z-index: 11;
+		}
+		#son_of_two_block
+		{
+			width: 300px;
+			height: 150px;
+			background-image: url('https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2686627021,2175359599&fm=21&gp=0.jpg');
+			background-size: 100% 100%;
+		}
+		#three_block
+		{
+			position: fixed;
+			bottom: -150px;
+			right: 100px;
+			width: 300px;
+			height: 200px;
+			border-radius:20px;
+			background-color: #0066b2;
+			z-index: 11;
+		}
+		#son_of_three_block
+		{
+			width: 300px;
+			height: 150px;
+			background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1496588233&di=c411bc3622f5b75c235bf3ed2dc81585&src=http://img5.pcpop.com/ArticleImages/picshow/0x0/20130313/2013031315193807025.jpg');
+			background-size: 100% 100%;
+		}
+		.text
+		{
+			position: relative;
+			left: 68px;
+			width: 300px;
+			height: 35px;
+			color: #33ccff;
+		}
+		.picture
+		{
+			display: block;
+			width: 300px;
+			height: 150px;
+			cursor: hand;
+		}
+		img
+		{
+			position: absolute;
+			width: 550px;
+			height: 200px;
+			top: 450px;
+			left: 365px;
+		}
+		#Blizzard
+		{
+		  float: left;
+		  position: relative;
+		  height: 45px;
+		  width: 100px;
+		  left: 0px;
+		  top: -10px;
+		}
+		#a
+		{
+			position: absolute;
+			top: 10px;
+			left: 110px;
+		  width: 80px;
+		  height: 25px;
+		  background-color: #000000;
+		  color:#a1a1a4;
+		  text-align:center;
+		  font-size: 18px;
+		  z-index: 9;
+		}
+		#b
+		{
+		  position: absolute;
+		  top: 10px;
+		  left: 210px;
+		  width: 100px;
+		  height: 25px;
+		  background-color: #000000;
+		  color:#a1a1a4;
+		  text-align:center;
+		  font-size: 18px;
+		  z-index: 9;
+		}
+		#c
+		{
+		  position: absolute;
+		  top: 10px;
+		  right: 150px;
+		  width: 100px;
+		  height: 25px;
+		  background-color: #000000;
+		  color:#a1a1a4;
+		  text-align:center;
+		  font-size: 18px;
+		  z-index: 9;
+		}
+		#d
+		{
+	      position: absolute;
+	      top: 10px;
+	      right: 50px;
+		  width: 100px;
+		  height: 25px;
+		  background-color: #000000;
+		  color:#a1a1a4;
+		  text-align:center;
+		  font-size: 18px;
+		  z-index: 9;
+		}
+		#e
+		{	
+		  position: absolute;
+		  top: 10px;
+		  left: 300px;
+		  width: 100px;
+		  height: 25px;
+		  background-color: #000000;
+		  color:#a1a1a4;
+		  text-align:center;
+		  font-size: 18px;
+		  z-index: 9;		
+		}
+		a:link{  text-decoration: none; }
+	    a:visited{color: #a1a1a4}
+	    a:hover {color: #f2f7fa}
+	</style>
+</head>
+<body>
+	<img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2544125475,3997579323&fm=11&gp=0.jpg" id="Blizzard">
+	<div id="a"><a href="http://www.battlenet.com.cn/zh/">暴雪官网</a></div>
+	<div id="b"><a href="https://www.battlenet.com.cn/shop/zh/">商城</a></div>
+	<div id="c"><a href="log in.html">登录</a></div>
+	<div id="d"><a href="register.html">注册</a></div>
+	<div id="e"><a href="IntroduceSelf2.0.html">关于作者</a></div>
+	<div id="father">
+		<img src="http://sc2.nos.netease.com/1/style/images/minisite/legacy-of-the-void/img/xkzy_logo.png">
+		<video autoplay loop="loop" id="first_video">
+			<source src="http://sc2.nos.netease.com/1/style/images/minisite/legacy-of-the-void/video/header_bg_151012.webm" type="video/webm">
+		</video>
+		<div id="one_block">
+			<div class="text">
+				<blockquote>版本介绍</blockquote>
+			</div>
+			<div id="son_of_one_block">
+				<a href="version.html"  class="picture"></a>
+			</div>
+		</div>
+		<div id="two_block">
+			<div class="text">
+				<blockquote>兵种资料</blockquote>
+			</div>
+			<div id="son_of_two_block">
+				<a href="arm of the services.html" class="picture"></a>
+			</div>
+		</div>
+		<div id="three_block">
+			<div class="text">
+				<blockquote>满脑子骚操作</blockquote>
+			</div>
+			<div id="son_of_three_block">
+				<a href="operation.html" class="picture"></a>
+			</div>	
+		</div>	
+	</div>
+</body>
+</html>
