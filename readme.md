@@ -5,52 +5,34 @@
 <title>开发报告</title>
 </head>
 <body>
-<div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_SVG_Hidden"></div><svg><defs id="MathJax_SVG_glyphs"></defs></svg></div><div id="wmd-preview" class="wmd-preview"><div class="md-section-divider"></div><div class="md-section-divider"></div><h1 data-anchor-id="bhfl" id="开发报告">开发报告</h1><hr><div class="md-section-divider"></div><h2 data-anchor-id="7vsj" id="策划思路">策划思路</h2><blockquote data-anchor-id="gih8" class="white-blockquote">
+<div id="wmd-preview" class="wmd-preview"><div class="md-section-divider"></div><div class="md-section-divider"></div><h1 data-anchor-id="bhfl" id="开发报告">开发报告</h1><hr><div class="md-section-divider"></div><h2 data-anchor-id="7vsj" id="策划思路">策划思路</h2><blockquote data-anchor-id="gih8" class="white-blockquote">
   <p>  在众多的题材中，我选择了游戏这个题材，除了个人兴趣的原因外，游戏网站丰富的内容与炫酷的视觉效果也是我选择游戏题材的原因。 <br>
       我期待的网站效果不仅是以上提到的两点，还要体现出这个游戏本身魅力和与其他游戏相比与众不同的地方，让第一次听闻这个游戏的人在看到这个网站后能对这个游戏产生一定的兴趣。 <br>
       网站的内容以玩家在游戏中操作到的角色的介绍和游戏中玩家对抗的精彩画面为主，以游戏整体上的介绍为辅。</p>
 </blockquote><div class="md-section-divider"></div><h2 data-anchor-id="5s2s" id="页面结构与说明">页面结构与说明</h2><blockquote data-anchor-id="aqrp" class="white-blockquote">
   <p>网站由八个界面组成</p>
   
-  <p></p><ul> <br>
-  <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/" target="_blank">首页</a> <br><p></p>
-  
-  <blockquote class="white-blockquote">
-    <p>首页主要对网站的内容做了一个简单的介绍，并提供了视图和链接来访问具体的内容。首页的背景并没有用传统的图片，而是用了一个循环播放的视频，使整个页面十分炫酷与生动。</p></blockquote></li>
-    <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/log%20in.html" target="_blank">登录</a> <br><p></p>
-    
-    <blockquote class="white-blockquote">
-      <p>主要功能就是登录账号，并可以跳转到注册界面。界面十分简约，主要凸显登录的作用。</p></blockquote></li>
-      <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/register.html" target="_blank">注册</a> <br><p></p>
-      
-      <blockquote class="white-blockquote">
-        <p>主要功能就是注册账号，并可以条转登录界面。注册信息非常详细。</p></blockquote></li>
-        <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/version.html" target="_blank">版本介绍</a> <br><p></p>
-        
-        <blockquote class="white-blockquote">
-          <p>内容以介绍当前版本为主，页面同样是是以视频为背景，配合部分文字，效果十分炫酷。</p></blockquote></li>
-          <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/arm%20of%20the%20services.html" target="_blank">兵种介绍</a> <br><p></p>
-          
-          <blockquote class="white-blockquote">
-            <p>以三个种族的单位为主要内容，呈现的形式是从上到下依次分为三个部分，每个部分为左右布局两个部分，一部分为该种族代表人物的头像，另一部分为该种族的单位介绍，该部分以列表的形式呈现，不过，不同于普通的列表，这部分列表采用图片列表的形式，即把列表原来每一项的文字内容改为图片，并且采用浮动的手法，把这些图片横向排列，除此之外，列表中的每一个图片还嵌套了一个下拉菜单，以便浏览者鼠标移动到该图片的时候，出现下拉内容来显示该单位的信息，下拉内容的背景采用了半透明的效果。</p></blockquote></li>
-            <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/detail.html" target="_blank">详细介绍</a> <br><p></p>
-            
-            <blockquote class="white-blockquote">
-              <p>详细介绍该单位的具体能力和属性。</p></blockquote></li>
-              <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/operation.html" target="_blank">操作介绍</a> <br><p></p>
-              
-              <blockquote class="white-blockquote">
-                <p>介绍了比赛中一些经典的操作技巧，以gif图片的形式呈现。</p></blockquote></li>
-                <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/IntroduceSelf2.0.html" target="_blank">关于作者</a> <br><p></p>
-                
-                <blockquote class="white-blockquote">
-                  <p>自我介绍，主要用到了比较基础的html标签。</p></blockquote></li>
-                  <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/calculator.html" target="_blank">计算器</a> <br><p></p>
-                  
-                  <blockquote class="white-blockquote">
-                    <p>使用js的插件做成的实现计算器功能的界面。</p></blockquote></li>
-                    </ul><p></p>
-                  </blockquote><div class="md-section-divider"></div><h2 data-anchor-id="syc2" id="技术指标">技术指标</h2><blockquote data-anchor-id="5t9u" class="white-blockquote">
+  <ul>
+  <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/" target="_blank">首页</a> <br>
+  首页主要对网站的内容做了一个简单的介绍，并提供了视图和链接来访问具体的内容。首页的背景并没有用传统的图片，而是用了一个循环播放的视频，使整个页面十分炫酷与生动。</li>
+  <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/log%20in.html" target="_blank">登录</a> <br>
+  主要功能就是登录账号，并可以跳转到注册界面。界面十分简约，主要凸显登录的作用。</li>
+  <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/register.html" target="_blank">注册</a> <br>
+  主要功能就是注册账号，并可以条转登录界面。注册信息非常详细。</li>
+  <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/version.html" target="_blank">版本介绍</a> <br>
+  内容以介绍当前版本为主，页面同样是是以视频为背景，配合部分文字，效果十分炫酷。</li>
+  <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/arm%20of%20the%20services.html" target="_blank">兵种介绍</a> <br>
+  以三个种族的单位为主要内容，呈现的形式是从上到下依次分为三个部分，每个部分为左右布局两个部分，一部分为该种族代表人物的头像，另一部分为该种族的单位介绍，该部分以列表的形式呈现，不过，不同于普通的列表，这部分列表采用图片列表的形式，即把列表原来每一项的文字内容改为图片，并且采用浮动的手法，把这些图片横向排列，除此之外，列表中的每一个图片还嵌套了一个下拉菜单，以便浏览者鼠标移动到该图片的时候，出现下拉内容来显示该单位的信息，下拉内容的背景采用了半透明的效果。</li>
+  <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/detail.html" target="_blank">详细介绍</a> <br>
+  详细介绍该单位的具体能力和属性。</li>
+  <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/operation.html" target="_blank">操作介绍</a> <br>
+  介绍了比赛中一些经典的操作技巧，以gif图片的形式呈现。</li>
+  <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/IntroduceSelf2.0.html" target="_blank">关于作者</a> <br>
+  自我介绍，主要用到了比较基础的html标签。</li>
+  <li><a href="https://zhuyufeng0809.github.io/WEB-Front-End/calculator.html" target="_blank">计算器</a> <br>
+  使用js的插件做成的实现计算器功能的界面。</li>
+  </ul>
+</blockquote><div class="md-section-divider"></div><h2 data-anchor-id="syc2" id="技术指标">技术指标</h2><blockquote data-anchor-id="5t9u" class="white-blockquote">
   <p>兼容谷歌浏览器， <br>
     使用了html，html5，css，css3， <br>
     开发工具为XAMPP，谷歌浏览器，sublime text.</p>
